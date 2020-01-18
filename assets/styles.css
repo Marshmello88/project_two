@@ -1,0 +1,156 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Brandon Grotesque Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Regular Italic'), url('brandon-grotesque-regular-italic-58a8a456c4724.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Brandon Grotesque Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Thin Italic'), url('brandon-grotesque-thin-italic-58a8a3a8861fe.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Brandon Grotesque Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Light'), url('brandon-grotesque-light-58a8a4b38001d.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Brandon Grotesque Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Light Italic'), url('brandon-grotesque-light-italic-58a8a4ccb88be.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Brandon Grotesque Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Medium Italic'), url('brandon-grotesque-medium-italic-58a8a3c40866a.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Brandon Grotesque Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Bold Italic'), url('brandon-grotesque-bold-italic-58a8a48221563.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Brandon Grotesque Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Brandon Grotesque Black'), url('brandon-grotesque-black-58a8a3e824392.woff') format('woff');
+}
+
+/* BODY */
+
+body {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background: #fff;
+    font-size: 1em;
+    color: #3c4561;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0;
+}
+
+/*'Inter', Arial, sans-serif;*/
+
+/* .no-padding {
+        padding: 0 !important;
+    }*/
+
+h1 {
+    color: #fff;
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+/* landing page */
+.animated{
+                -webkit-animation-duration:4s;
+                animation-duration:4s;
+                -webkit-animation-fill-mode:both;
+                animation-fill-mode:both;
+                 animation-delay: 0.4s;
+}
+
+ @-webkit-keyframes fadeInLeft{
+                0%{
+                    opacity:0;
+                    -webkit-transform:translateX(-500px);
+                    transform:translateX(-500px)}
+                to{
+                    opacity:1;
+                    -webkit-transform:translateX(0);
+                    transform:translateX(0)
+                }
+            }
+            @keyframes fadeInLeft{
+                0%{
+                    opacity:0;
+                    -webkit-transform:translateX(-500px);
+                    -ms-transform:translateX(-500px);
+                    transform:translateX(-500px)}
+                to{
+                    opacity:1;
+                    -webkit-transform:translateX(0);
+                    -ms-transform:translateX(0);
+                    transform:translateX(0)
+                }
+            }
+            .fadeInLeft{
+                -webkit-animation-name:fadeInLeft;
+                animation-name:fadeInLeft
+            }
+            
+    /*=== FADE IN LEFT ===*/
+/*@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-300%, 0, 0);
+    transform: translate3d(-300%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+ -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-300%, 0, 0);
+    transform: translate3d(-300%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+ -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}*/
